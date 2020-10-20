@@ -22,11 +22,12 @@ namespace App\Models{
  * @property float|null $rate
  * @property string|null $types
  * @property string|null $picture_path
- * @property string|null $deleted_at
+ * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Illuminate\Database\Eloquent\Builder|Food newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Food newQuery()
+ * @method static \Illuminate\Database\Query\Builder|Food onlyTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder|Food query()
  * @method static \Illuminate\Database\Eloquent\Builder|Food whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Food whereDeletedAt($value)
@@ -39,6 +40,8 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Food whereRate($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Food whereTypes($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Food whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Query\Builder|Food withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Food withoutTrashed()
  */
 	class Food extends \Eloquent {}
 }
@@ -103,11 +106,14 @@ namespace App\Models{
  * @property int $total
  * @property string $status
  * @property string $payment_url
- * @property string|null $deleted_at
+ * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Models\Food|null $food
+ * @property-read \App\Models\User|null $user
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction newQuery()
+ * @method static \Illuminate\Database\Query\Builder|Transaction onlyTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction query()
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction whereDeletedAt($value)
@@ -119,6 +125,8 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction whereTotal($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Transaction whereUserId($value)
+ * @method static \Illuminate\Database\Query\Builder|Transaction withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Transaction withoutTrashed()
  */
 	class Transaction extends \Eloquent {}
 }
