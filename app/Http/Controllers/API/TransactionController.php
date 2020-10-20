@@ -97,7 +97,7 @@ class TransactionController extends Controller
         // Post to Midtrans
         try {
             // Get Page Payment Midtrans
-            $paymentUrl = Snap::createTransaction($midtrans)->redirect_url;
+            $paymentUrl               = Snap::createTransaction($midtrans)->redirect_url;
             $transaction->payment_url = $paymentUrl;
             $transaction->save();
 
