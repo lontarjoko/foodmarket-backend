@@ -1236,16 +1236,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.11.1",
+            "version": "v8.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "73f8f15e55b93a295620101ef9f9fcecf90441ae"
+                "reference": "8d1f25fb8d124d5a24df9714ed8d481c43f9efe6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/73f8f15e55b93a295620101ef9f9fcecf90441ae",
-                "reference": "73f8f15e55b93a295620101ef9f9fcecf90441ae",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8d1f25fb8d124d5a24df9714ed8d481c43f9efe6",
+                "reference": "8d1f25fb8d124d5a24df9714ed8d481c43f9efe6",
                 "shasum": ""
             },
             "require": {
@@ -1395,20 +1395,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-10-20T18:42:57+00:00"
+            "time": "2020-10-20T20:12:53+00:00"
         },
         {
             "name": "laravel/jetstream",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "066ccf58651769573f77239d69112edf2af94a1a"
+                "reference": "5a1967bb1f0f73620313b9b9431ac122ef20c79c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/066ccf58651769573f77239d69112edf2af94a1a",
-                "reference": "066ccf58651769573f77239d69112edf2af94a1a",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/5a1967bb1f0f73620313b9b9431ac122ef20c79c",
+                "reference": "5a1967bb1f0f73620313b9b9431ac122ef20c79c",
                 "shasum": ""
             },
             "require": {
@@ -1457,7 +1457,7 @@
                 "laravel",
                 "tailwind"
             ],
-            "time": "2020-10-20T18:01:40+00:00"
+            "time": "2020-10-21T17:02:54+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -2024,16 +2024,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.41.3",
+            "version": "2.41.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52"
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e148788eeae9b9b7b87996520358b86faad37b52",
-                "reference": "e148788eeae9b9b7b87996520358b86faad37b52",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6571aec754a648ef476a8d8f57993f7bc965afe4",
+                "reference": "6571aec754a648ef476a8d8f57993f7bc965afe4",
                 "shasum": ""
             },
             "require": {
@@ -2099,7 +2099,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-10-12T20:36:09+00:00"
+            "time": "2020-10-22T07:28:05+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -6572,22 +6572,22 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799"
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
                 "shasum": ""
             },
             "require": {
                 "facade/ignition-contracts": "~1.0",
                 "illuminate/pipeline": "^5.5|^6.0|^7.0|^8.0",
-                "php": "^7.1",
+                "php": "^7.1|^8.0",
                 "symfony/http-foundation": "^3.3|^4.1|^5.0",
                 "symfony/mime": "^3.4|^4.0|^5.1",
                 "symfony/var-dumper": "^3.4|^4.0|^5.0"
@@ -6623,7 +6623,7 @@
                 "flare",
                 "reporting"
             ],
-            "time": "2020-09-18T06:35:11+00:00"
+            "time": "2020-10-21T16:02:39+00:00"
         },
         {
             "name": "facade/ignition",
